@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1641283322534",
+      "Action": [
+        "s3:GetBucketVersioning",
+        "s3:GetObjectVersion",
+        "s3:GetObjectVersionTorrent"
+      ],
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::raja234"
+    }
+  ]
+}
